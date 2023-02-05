@@ -1,0 +1,19 @@
+	import java.util.*;
+
+public class listsum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int sum=0;
+		
+		List <Integer> list= Arrays.asList(1,9,10,11,12);
+
+		for(int i=0;i<list.size();i++)
+		{
+			sum=sum+list.get(i);
+		}
+		System.out.println(sum);
+	}
+
+}
+  
